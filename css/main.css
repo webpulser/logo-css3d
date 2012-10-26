@@ -1,0 +1,17 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+#logo {
+  position: absolute;
+  left: 0;
+  transition-property: left;
+  transition-duration: 2s;
+}
+
+#logo.pull-right {
+  left: 80%;
+  -webkit-transform: perspective(600) rotateY(-45deg);
+  transform: perspective(600px) rotateY(-45deg);
+}
